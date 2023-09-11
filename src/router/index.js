@@ -33,6 +33,10 @@ const routes = [
         path:"/findout",
         component:() => import("../pages/FindOut"),
     },
+    {
+        path:"/test",
+        component:() => import("../pages/Test"),
+    }
 ]
 const router = createRouter({
     history:createWebHistory(),

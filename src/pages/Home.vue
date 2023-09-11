@@ -16,9 +16,12 @@
               </div>
             </router-link>
             
-            <div class="hand-out" >
-                <img src="../assets/images/handout.png"/>
-            </div>
+            <router-link to="/test">
+                <div class="hand-out" >
+                  <img src="../assets/images/handout.png"/>
+                </div>
+            </router-link>
+            
           </div>
           
         </div>
