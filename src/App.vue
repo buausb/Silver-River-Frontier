@@ -1,26 +1,24 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <FrameCom></FrameCom>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import FrameCom from './pages/Frame.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    FrameCom,
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  #app{
+    /* background-color: aqua; */
+  }
 </style>
