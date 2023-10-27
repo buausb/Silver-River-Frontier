@@ -36,7 +36,8 @@ const routes = [
     {
         path:"/test",
         component:() => import("../pages/Test"),
-    }
+    },
+    
 ]
 const router = createRouter({
     history:createWebHistory(),
